@@ -28,6 +28,7 @@ var server = http.createServer(function(request,response){
 });
 
 //2. listen to the server
+//ok its correct
 server.listen(7000,function(){
     console.log("Server Side Listening at 7000");
 }); 
